@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+	<head>
+    	<title>🎂 Happy Birthday</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    	<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="../images/squirrel.png">
+    	<link rel="Stylesheet" type="text/css" href="../css/party.css" />  	
+  	</head>
+	<body>
+		<div class="waiting flex-center transition" id="waiting">
+			<div class="waitext transition">
+				<span>Un pequeño regalo, a kilómetros de distancia...</span>
+				<span>espero que te guste...</span><br>
+				<span>te sugiero subir un poquito el volúmen 😁...</span><br>
+				<span>toca la pantalla 🤗</span>
+			</div>			
+		</div>
+		<div id="layers"></div>
+		<div class="main">
+			<div class="letters" id="letters"></div>
+			<div class="birthday transition opacity" id="birthday">¡Feliz cumpleaños!</div>
+			<div class="bigcard transition opacity" id="bigcard">
+				<div class="body" id="body"></div>
+				<lottie-player class="lottie-fg" src="https://assets9.lottiefiles.com/packages/lf20_30iie6.json"  background="transparent"  speed="1" autoplay loop></lottie-player>
+				<div class="chev-left">
+					<div class="arrow-l transition" id="toPrev"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg></div>
+				</div>
+				<div class="chev-right transition">
+					<div class="arrow-r transition" id="toNext"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg></div>
+				</div>				
+				<div class="youme"></div>
+				<div class="pages" id="checkpages"></div>
+			</div>
+			<div class="footer transition opacity" id="footer">💜 HMCC 💜</div>
+		</div>
+
+		<audio autoplay>
+	        <source src="../sound/wallsound.mp3" type="audio/mpeg">
+	    </audio>
+
+		<script src="../js/jquery.min.js"></script>		
+		<script src="../js/party.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	</body>
+</html>
