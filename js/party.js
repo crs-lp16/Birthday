@@ -12,7 +12,7 @@ $(document).ready(function () {
 	const regs = [ 
 		{
 			c1: "#9046cf", c2: "#cc59d2", c3: "#490062", 
-			t1: "Hoy es un día muy especial",
+			t1: "Mañana será un día muy especial",
 			t2: "Helemsita, Dios te regala un año más de vida, un año más lleno de alegrías, retos y logros. \"Oye, hijo mío, y recibe mis razones,Y se te multiplicarán años de vida.\" (Prov. 4:10)",
 			img: "pastel.png"
 		},
@@ -36,7 +36,7 @@ $(document).ready(function () {
 		},
 		{
 			c1: "#9cff89", c2: "#ffc08f", c3: "#bb5200",
-			t1: "Recuerda...",
+			t1: "Y recuerda...",
 			t2: "We are Forever Young 💜",
 			img: "youme.jpg"
 		}
